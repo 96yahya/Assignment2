@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingRoom"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:id="@+id/bookTxtHeding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select a room"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#7C1782D6">
+
+
+            <ImageButton
+
+                android:id="@+id/BookBtndouble"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:src="@drawable/double1" />
+
+            <ImageButton
+                android:id="@+id/BookBtnMaster"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/master"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <ImageButton
+                android:id="@+id/BookBtnSingle"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/single"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <ImageButton
+                android:id="@+id/BookBtnSweet"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sweet"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <ImageButton
+                android:id="@+id/BookBtnTruble"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/truble"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                />
+            ></LinearLayout>
+    </ScrollView>
+
+</TableLayout>
